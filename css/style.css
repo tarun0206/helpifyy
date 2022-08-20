@@ -31,7 +31,8 @@ html {
 /* LAYOUT
 /*******************************************/
 header {
-
+     background: #1C2332;
+  
 }
 
 nav{
@@ -43,18 +44,67 @@ nav{
 nav > section > h1{
      font-family: 'Silkscreen', cursive;
      font-size: 3.5em;
-     color: #12193E;
-     margin-left: 5rem;
+     color: white;
+     margin-left: 10rem;
 }
 
 nav > section > button{
      height: 2.3em;
      width: 7.3em;
-     color: whitesmoke;
-     background: #12193E;
+     color: 1C2332;
+     background: white;
+     font-weight: 600;
      font-size: 2rem;
      border-radius: 3rem;
-     margin-right: 5rem;
+     margin-right: 10rem;
+     border: 0;
+     cursor: pointer;
+}
+
+main{
+     display: flex;
+     justify-content: space-between;
+     background-image: linear-gradient(174deg, #1C2332  70%, white calc(70% + 2px));
+}
+
+main > section > h1{
+     font-size: 3.6rem;
+     font-weight: 600;
+     color: white;
+     margin: 12rem 0 0 10rem;
+}
+
+main > section > p{
+     font-size: 1.8rem;
+     color: rgb(228, 224, 224);
+     margin: 5.6rem 0 0 10rem;
+     line-height: 3rem;
+}
+
+main > section > button{
+     font-size: 1.8rem;
+     color: #1C2332;
+     font-weight: 600;
+     background: white;
+     height: 5.8rem;
+     width: 17.4rem;
+     border: 2px solid #1C2332;
+     border-radius: 2.8rem;
+     margin: 5.6rem 0 0 10rem;
+     cursor: pointer;
+}
+
+main > section > p > span{
+     color: #00ffec;
+     font-weight: 600;
+}
+
+main > section > img{
+     height: 310px;
+     margin: 5.6rem 10rem 0 0;
+     border: 2.6rem solid white ;
+     border-radius: 1.5rem;
+     box-shadow: 0px 16px 58px -3px #111;
 }
 
 footer {

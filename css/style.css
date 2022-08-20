@@ -136,6 +136,46 @@ article > p{
      line-height: 3rem;
 }
 
+.tracker{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 12rem 0;
+}
+
+.tracker > h1{
+     font-size: 3rem;
+     color: #1C2332;
+     font-weight: 600;
+}
+
+.tracker > h1 > span{
+     color: #00ffec;
+     font-weight: 600;
+     font-family: 'Silkscreen', cursive;
+}
+
+.tracker > section{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     margin: 0 0 0 12.2rem;
+}
+
+.tracker > section > button{
+     height: 8.3em;
+     width: 14.3em;
+     color: #1C2332;
+     background: #e2fffd;
+     font-weight: 600;
+     font-size: 2rem;
+     border-radius: 1rem;
+     margin-right: 10rem;
+     border: 2px solid black;
+     cursor: pointer;
+     margin-top: 4%;
+}
+
 footer {
 }
 

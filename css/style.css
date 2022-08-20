@@ -159,7 +159,7 @@ article > p{
      display: flex;
      align-items: center;
      justify-content: space-evenly;
-     margin: 0 0 0 12.2rem;
+     margin: 0 0 0 5.5%;
 }
 
 .tracker > section > button{
@@ -176,8 +176,6 @@ article > p{
      margin-top: 4%;
 }
 
-footer {
-}
 
 /******************************************
 /* ADDITIONAL STYLES

@@ -97,14 +97,43 @@ main > section > button{
 main > section > p > span{
      color: #00ffec;
      font-weight: 600;
+     font-family: 'Silkscreen', cursive;
 }
 
 main > section > img{
      height: 310px;
-     margin: 5.6rem 10rem 0 0;
-     border: 2.6rem solid white ;
+     margin: 12rem 10rem 0 0;
+     /* border: 2.6rem solid #E2E8FE ; */
      border-radius: 1.5rem;
      box-shadow: 0px 16px 58px -3px #111;
+}
+
+article{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 0 38rem;
+}
+
+article > h1{
+     font-size: 3rem;
+     color: #1C2332;
+     font-weight: 600;
+     margin: 12rem 0 0 0;
+}
+
+article > h1 > span{
+     color: #00ffec;
+     font-weight: 600;
+     font-family: 'Silkscreen', cursive;
+}
+
+article > p{
+     font-size: 1.8rem;
+     text-align: center;
+     color: #354057;
+     margin: 5.6rem 0 0 0;
+     line-height: 3rem;
 }
 
 footer {
